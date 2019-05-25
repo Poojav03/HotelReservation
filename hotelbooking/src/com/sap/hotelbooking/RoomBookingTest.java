@@ -92,10 +92,9 @@ int size, Accept = 1,Decline = 0;
 		
 		RoomBooking testcase6 = new RoomBooking();
 		size = 2;
-		int [][]G = new int[30][30];
-		assertEquals(Decline,testcase6.checkAvailability(5,3,size,G));
+		int [][]testcase6slot = new int[30][30];
+		assertEquals(Decline,testcase6.checkAvailability(5,3,size,testcase6slot));
 		
 	}
-
 
 }
